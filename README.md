@@ -10,8 +10,8 @@ Train part::<br />
 
 Predict part::<br />
 1.use the model to predict number:<br />
-2.check the answser save.jpg:<br />
-
+2.check the answser save.jpg:
+<img src="https://github.com/lagendre/7net_OCR/blob/master/save.jpg" />
 
 <b>predict result<br />
 digit 0 : 1.0<br />
