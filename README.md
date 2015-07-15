@@ -21,4 +21,4 @@ digit 3 : 8.0<br />
 check save.jpg and see the prediction upon<br />
 Recognize digit takes ：1 sec<br />
 </b>
-<a href="http://lagendre.blogspot.tw/2015/06/java.html"><u>See Blogger More detail</u></a>
+<a href="http://lagendre.blogspot.tw/2015/06/java.html"><u>See Blogger More details</u></a>
