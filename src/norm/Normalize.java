@@ -86,11 +86,12 @@ public class Normalize
 	   
 	   //image spilt and resize for normalize 
 	   public static BufferedImage[] imageNormalize(BufferedImage coloredImage )throws Exception{
+		   
+		   ImageIO.write(coloredImage, "jpg", new File("save.jpg"));
+		   
 		   BufferedImage blackNWhite = new BufferedImage(coloredImage.getWidth(),coloredImage.getHeight(),BufferedImage.TYPE_BYTE_BINARY);
 		   Graphics2D graphics = blackNWhite.createGraphics();
 		   graphics.drawImage(coloredImage, 0, 0, null);
-
-		   ImageIO.write(blackNWhite, "jpg", new File("save.jpg"));
 		
 		   int[] histo =  Normalize.projectMethod(blackNWhite, 1 );
 			
